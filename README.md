@@ -9,13 +9,13 @@ This is a spring slide menu for iOS apps<br>
 ## Installation &nbsp;安装
 * pod
 ```
-&nbsp;&nbsp;1.pod "LLSlideMenu"
-&nbsp;&nbsp;2.pod install       // 若获取失败请重新 pod setup
+    1.pod "LLSlideMenu"
+    2.pod install       // 若获取失败请重新 pod setup
 ```
 * Common
 ```
-&nbsp;&nbsp;1.Add "LLSlideMenu" files to your Project<br>
-&nbsp;&nbsp;2.#import "LLSlideMune.h"<br>
+    1.Add "LLSlideMenu" files to your Project
+    2.#import "LLSlideMune.h"
 ```
 
 ## Usage &nbsp;用法
