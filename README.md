@@ -7,7 +7,7 @@ This is a spring slide menu for iOS apps<br>
 ![image](https://github.com/lilei644/LLSlideMenu/blob/master/Preview/LLSlideMenuPreview.gif)
 
 ## Installation &nbsp;安装
-* Common
+* Common<br>
 &nbsp;&nbsp;1.Add "LLSlideMenu" files to your Project<br>
 &nbsp;&nbsp;2.#import "LLSlideMune.h"<br>
 

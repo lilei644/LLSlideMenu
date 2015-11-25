@@ -105,6 +105,15 @@
     _displayLayer.menuBgColor = ll_menuBackgroundColor;
 }
 
+//=================================
+// 添加menu背景图片
+//=================================
+- (void)setLl_menuBackgroundImage:(UIImage *)ll_menuBackgroundImage {
+    _ll_menuBackgroundImage = ll_menuBackgroundImage;
+    _displayLayer.menuBgColor = [UIColor colorWithPatternImage:ll_menuBackgroundImage];
+}
+
+
 
 //=====================
 // 关闭菜单

@@ -18,6 +18,8 @@
 @property (nonatomic, assign) CGFloat ll_distance;
 // background color
 @property (nonatomic, strong) UIColor *ll_menuBackgroundColor;
+// background image
+@property (nonatomic, strong) UIImage *ll_menuBackgroundImage;
 
 // animate manager
 @property (nonatomic, strong) LLAnimationManager *ll_animManager;
