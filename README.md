@@ -11,10 +11,11 @@ This is a spring slide menu for iOS apps<br>
 ```
     1.pod "LLSlideMenu"
     2.pod install       // 若获取失败请重新 pod setup
+    3.#import "LLSlideMune.h"
 ```
 * Common
 ```
-    1.Add "LLSlideMenu" files to your Project
+    1.Add "LLSlideMenu" files to your Project   // 直接导入“LLSlideMenu”文件夹到项目中
     2.#import "LLSlideMune.h"
 ```
 
