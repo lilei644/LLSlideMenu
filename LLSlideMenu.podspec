@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "LLSlideMenu"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "This is a way to create a spring slide menu use LLSlideMenu."
 s.homepage     = "https://github.com/lilei644/LLSlideMenu"
 s.license      = { :type => "MIT", :file => "LICENSE" }

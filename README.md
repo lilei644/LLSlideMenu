@@ -8,8 +8,8 @@ This is a spring slide menu for iOS apps<br>
 
 ## Installation &nbsp;安装
 * Common<br>
-&nbsp;&nbsp;1.Add "LLSlideMenu" files to your Project<br>
-&nbsp;&nbsp;2.#import "LLSlideMune.h"<br>
+&nbsp;&nbsp;1.Add &nbsp;&nbsp; "LLSlideMenu" files to your Project<br>
+&nbsp;&nbsp;2.#import &nbsp;&nbsp; "LLSlideMune.h"<br>
 
 ## Usage &nbsp;用法
 * Init &nbsp;初始化
@@ -21,8 +21,14 @@ LLSlideMune *slideMenu = [[LLSlideMune alloc] init];
 ```
 // 设置菜单宽度  menu width
 _slideMenu.ll_menuWidth = 200.f;
+
 // 设置菜单背景色  background color
 _slideMenu.ll_menuBackgroundColor = [UIColor redColor];
+
+// 设置菜单背景图片  background image
+_slideMenu.ll_menuBackgroundImage = [UIImage imageNamed:@"image"];
+
+// 背景色或背景图片设置一个即可   image and color select one
 
 ```
 * Open or Close &nbsp;打开或关闭
