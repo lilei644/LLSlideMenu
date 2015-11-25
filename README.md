@@ -1,2 +1,4 @@
 # LLSlideMenu
-This is a spring slide menu for iOS apps - 一个弹性侧滑菜单 
+This is a spring slide menu for iOS apps<br>
+一个弹性侧滑菜单<br>
+![image](https://github.com/lilei644/LLSlideMenu/blob/master/Preview/LLSlideMenuPreview.gif)
