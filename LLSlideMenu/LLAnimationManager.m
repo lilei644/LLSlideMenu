@@ -144,6 +144,7 @@ static NSString *ANIM_ENDCIRCLE = @"endLLCircleAnimate";
         if (anim == [_layer animationForKey:ANIM_STARTBASE]) {
             [_layer removeAllAnimations];
             _layer.isAnimating = YES;
+            _llSildeMenu.ll_isOpen = YES;
             CAKeyframeAnimation *animSpring = [self createSpringAnima:@"distance" duration:2.f usingSpringWithDamping:0.5 initialSpringVelocity:3 fromValue:@(0) toValue:@(_layer.bgWidth)];
             [_layer addAnimation:animSpring forKey:ANIM_STARTSPRING];
             CAKeyframeAnimation *animCircle = [self createBaseAnima:@"radius" duration:.8f fromValue:@(0) toValue:@(sqrt(_circleLayer.frame.size.width * _circleLayer.frame.size.width + _circleLayer.frame.size.height * _circleLayer.frame.size.width))];
