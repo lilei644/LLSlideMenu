@@ -48,6 +48,12 @@ _slideMenu.ll_menuBackgroundImage = [UIImage imageNamed:@"image"];
 ```
 _slideMenu.ll_distance = 100.f;     // 拉伸距离  pulling distance
 ```
+* Spring and Frames &nbsp;弹力和关键帧设置（可控制弹性效果和时间）
+```
+_slideMenu.ll_springDamping = 20;       // 阻力
+_slideMenu.ll_springVelocity = 15;      // 速度
+_slideMenu.ll_springFramesNum = 60;     // 关键帧数量
+```
 
 ## Requirements &nbsp;版本要求
 IOS 6.0 Above

@@ -28,7 +28,7 @@
 @property (nonatomic, assign) BOOL ll_isOpen;
 
 // 设置弹性 spring
-@property (nonatomic, assign) CGFloat ll_springDamping;         // 质量
+@property (nonatomic, assign) CGFloat ll_springDamping;         // 阻力
 @property (nonatomic, assign) CGFloat ll_springVelocity;        // 速度
 @property (nonatomic, assign) NSInteger ll_springFramesNum;     // 关键帧个数
 
