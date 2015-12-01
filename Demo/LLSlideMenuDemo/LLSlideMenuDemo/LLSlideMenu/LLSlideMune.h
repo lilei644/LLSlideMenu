@@ -27,6 +27,11 @@
 // 菜单是否打开
 @property (nonatomic, assign) BOOL ll_isOpen;
 
+// 设置弹性 spring
+@property (nonatomic, assign) CGFloat ll_springDamping;
+@property (nonatomic, assign) CGFloat ll_springVelocity;
+@property (nonatomic, assign) NSInteger ll_springFramesNum;
+
 
 // close menu
 - (void)ll_closeSlideMenu;

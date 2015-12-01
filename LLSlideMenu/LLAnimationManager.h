@@ -22,6 +22,11 @@
 
 @property (nonatomic, strong) LLSlideMune *llSildeMenu;
 
+// 设置弹性 spring
+@property (nonatomic, assign) CGFloat springDamping;
+@property (nonatomic, assign) CGFloat springVelocity;
+@property (nonatomic, assign) NSInteger springNumOfFrames;
+
 
 // 开始动画
 - (void)startAnimate;

@@ -66,7 +66,10 @@
     _ll_animManager.circleLayer = _circleLayer;
     _ll_isOpen = NO;
     
-    
+    // 设置默认弹力大小和关键帧数量
+    _ll_animManager.springDamping = 20.f;
+    _ll_animManager.springVelocity = 15.f;
+    _ll_animManager.springNumOfFrames = 60;
 }
 
 
@@ -113,6 +116,23 @@
     _displayLayer.menuBgColor = [UIColor colorWithPatternImage:ll_menuBackgroundImage];
 }
 
+//=================================
+// 设置弹力程度和关键帧数量
+//=================================
+- (void)setLl_springDamping:(CGFloat)ll_springDamping {
+    _ll_springDamping = ll_springDamping;
+    _ll_animManager.springDamping = ll_springDamping;
+}
+
+- (void)setLl_springVelocity:(CGFloat)ll_springVelocity {
+    _ll_springVelocity = ll_springVelocity;
+    _ll_animManager.springVelocity = ll_springVelocity;
+}
+
+- (void)setLl_springFramesNum:(NSInteger)ll_springFramesNum {
+    _ll_springFramesNum = ll_springFramesNum;
+    _ll_animManager.springNumOfFrames = ll_springFramesNum;
+}
 
 
 //=====================

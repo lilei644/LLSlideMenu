@@ -26,13 +26,16 @@
     
     // 初始化
     _slideMenu = [[LLSlideMune alloc] init];
-    
+    [self.view addSubview:_slideMenu];
     // 设置菜单宽度
     _slideMenu.ll_menuWidth = 200.f;
-    
     // 设置菜单背景色
     _slideMenu.ll_menuBackgroundColor = [UIColor redColor];
-    [self.view addSubview:_slideMenu];
+    // 设置弹力和速度，  默认的是20,15,60
+    _slideMenu.ll_springDamping = 20;       // 质量
+    _slideMenu.ll_springVelocity = 15;      // 速度
+    _slideMenu.ll_springFramesNum = 60;     // 关键帧数量
+    
     
     
     //===================
