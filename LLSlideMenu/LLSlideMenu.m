@@ -6,7 +6,7 @@
 //  Copyright © 2015年 LiLei. All rights reserved.
 //
 
-#import "LLSlideMune.h"
+#import "LLSlideMenu.h"
 #import "UIView+SetRect.h"
 #import "LLDisplayLayer.h"
 #import "LLCircleLayer.h"
@@ -14,7 +14,7 @@
 #define LL_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define LL_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
-@interface LLSlideMune ()
+@interface LLSlideMenu ()
 
 // 菜单显示的View
 @property (nonatomic, strong) UIView *displayView;
@@ -32,7 +32,7 @@
 
 @end
 
-@implementation LLSlideMune
+@implementation LLSlideMenu
 
 
 //=====================

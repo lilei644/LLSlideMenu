@@ -7,11 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "LLSlideMune.h"
+#import "LLSlideMenu.h"
 
 @interface ViewController ()
 
-@property (nonatomic, strong) LLSlideMune *slideMenu;
+@property (nonatomic, strong) LLSlideMenu *slideMenu;
 
 // 全屏侧滑手势
 @property (nonatomic, strong) UIPanGestureRecognizer *leftSwipe;
@@ -25,7 +25,7 @@
     [super viewDidLoad];
     
     // 初始化
-    _slideMenu = [[LLSlideMune alloc] init];
+    _slideMenu = [[LLSlideMenu alloc] init];
     [self.view addSubview:_slideMenu];
     // 设置菜单宽度
     _slideMenu.ll_menuWidth = 200.f;

@@ -7,7 +7,7 @@
 //
 
 #import "LLAnimationManager.h"
-#import "LLSlideMune.h"
+#import "LLSlideMenu.h"
 
 
 #define LL_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height

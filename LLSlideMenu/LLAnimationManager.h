@@ -11,7 +11,7 @@
 #import "LLDisplayLayer.h"
 #import "LLCircleLayer.h"
 
-@class LLSlideMune;
+@class LLSlideMenu;
 @interface LLAnimationManager : NSObject
 
 // 是否正在动画
@@ -20,7 +20,7 @@
 @property (nonatomic, strong) LLDisplayLayer *layer;
 @property (nonatomic, strong) LLCircleLayer *circleLayer;
 
-@property (nonatomic, strong) LLSlideMune *llSildeMenu;
+@property (nonatomic, strong) LLSlideMenu *llSildeMenu;
 
 // 设置弹性 spring
 @property (nonatomic, assign) CGFloat springDamping;

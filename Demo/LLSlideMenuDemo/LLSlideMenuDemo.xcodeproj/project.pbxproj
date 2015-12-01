@@ -16,8 +16,8 @@
 		844F15CD1C0492A500B485F8 /* LLAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15C41C0492A500B485F8 /* LLAnimationManager.m */; settings = {ASSET_TAGS = (); }; };
 		844F15CE1C0492A500B485F8 /* LLCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15C61C0492A500B485F8 /* LLCircleLayer.m */; settings = {ASSET_TAGS = (); }; };
 		844F15CF1C0492A500B485F8 /* LLDisplayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15C81C0492A500B485F8 /* LLDisplayLayer.m */; settings = {ASSET_TAGS = (); }; };
-		844F15D01C0492A500B485F8 /* LLSlideMune.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15CA1C0492A500B485F8 /* LLSlideMune.m */; settings = {ASSET_TAGS = (); }; };
 		844F15D11C0492A500B485F8 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15CC1C0492A500B485F8 /* UIView+SetRect.m */; settings = {ASSET_TAGS = (); }; };
+		8454310A1C0D4ACE00A1AC5F /* LLSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 845431091C0D4ACE00A1AC5F /* LLSlideMenu.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,10 +37,10 @@
 		844F15C61C0492A500B485F8 /* LLCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCircleLayer.m; sourceTree = "<group>"; };
 		844F15C71C0492A500B485F8 /* LLDisplayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDisplayLayer.h; sourceTree = "<group>"; };
 		844F15C81C0492A500B485F8 /* LLDisplayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDisplayLayer.m; sourceTree = "<group>"; };
-		844F15C91C0492A500B485F8 /* LLSlideMune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSlideMune.h; sourceTree = "<group>"; };
-		844F15CA1C0492A500B485F8 /* LLSlideMune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSlideMune.m; sourceTree = "<group>"; };
 		844F15CB1C0492A500B485F8 /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
 		844F15CC1C0492A500B485F8 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		845431081C0D4ACE00A1AC5F /* LLSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSlideMenu.h; sourceTree = "<group>"; };
+		845431091C0D4ACE00A1AC5F /* LLSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSlideMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 				844F15C61C0492A500B485F8 /* LLCircleLayer.m */,
 				844F15C71C0492A500B485F8 /* LLDisplayLayer.h */,
 				844F15C81C0492A500B485F8 /* LLDisplayLayer.m */,
-				844F15C91C0492A500B485F8 /* LLSlideMune.h */,
-				844F15CA1C0492A500B485F8 /* LLSlideMune.m */,
+				845431081C0D4ACE00A1AC5F /* LLSlideMenu.h */,
+				845431091C0D4ACE00A1AC5F /* LLSlideMenu.m */,
 				844F15CB1C0492A500B485F8 /* UIView+SetRect.h */,
 				844F15CC1C0492A500B485F8 /* UIView+SetRect.m */,
 			);
@@ -183,13 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844F15D01C0492A500B485F8 /* LLSlideMune.m in Sources */,
 				844F15D11C0492A500B485F8 /* UIView+SetRect.m in Sources */,
 				844F15A01C0491E800B485F8 /* ViewController.m in Sources */,
 				844F159D1C0491E800B485F8 /* AppDelegate.m in Sources */,
 				844F15CE1C0492A500B485F8 /* LLCircleLayer.m in Sources */,
 				844F15CD1C0492A500B485F8 /* LLAnimationManager.m in Sources */,
 				844F15CF1C0492A500B485F8 /* LLDisplayLayer.m in Sources */,
+				8454310A1C0D4ACE00A1AC5F /* LLSlideMenu.m in Sources */,
 				844F159A1C0491E800B485F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +337,7 @@
 				844F15AE1C0491E800B485F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

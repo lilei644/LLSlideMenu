@@ -10,7 +10,7 @@
 #import "LLAnimationManager.h"
 
 
-@interface LLSlideMune : UIView
+@interface LLSlideMenu : UIView
 
 // MenuView width
 @property (nonatomic, assign) CGFloat ll_menuWidth;
