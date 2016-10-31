@@ -67,7 +67,7 @@
 //===================
 - (void)swipeLeftHandle:(UIScreenEdgePanGestureRecognizer *)recognizer {
     // 如果菜单已打开则禁止滑动
-    if (_slideMenu.ll_isOpen) {
+    if (_slideMenu.ll_isOpen || _slideMenu.ll_isAnimating) {
         return;
     }
     // 计算手指滑的物理距离（滑了多远，与起始位置无关）

@@ -27,6 +27,9 @@
 // 菜单是否打开
 @property (nonatomic, assign) BOOL ll_isOpen;
 
+// 是否正在动画
+@property (nonatomic, assign) BOOL ll_isAnimating;
+
 // 设置弹性 spring
 @property (nonatomic, assign) CGFloat ll_springDamping;         // 阻力
 @property (nonatomic, assign) CGFloat ll_springVelocity;        // 速度

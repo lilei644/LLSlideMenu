@@ -173,6 +173,10 @@
     }
 }
 
+- (BOOL)ll_isAnimating {
+    return _ll_animManager.isAnimating;
+}
+
 
 #pragma 懒加载
 - (UIButton *)closeMenuButton {
