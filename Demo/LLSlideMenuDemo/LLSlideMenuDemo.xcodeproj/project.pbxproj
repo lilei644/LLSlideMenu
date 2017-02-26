@@ -13,11 +13,12 @@
 		844F15A31C0491E800B485F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F15A11C0491E800B485F8 /* Main.storyboard */; };
 		844F15A51C0491E800B485F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844F15A41C0491E800B485F8 /* Assets.xcassets */; };
 		844F15A81C0491E800B485F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F15A61C0491E800B485F8 /* LaunchScreen.storyboard */; };
-		844F15CD1C0492A500B485F8 /* LLAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15C41C0492A500B485F8 /* LLAnimationManager.m */; settings = {ASSET_TAGS = (); }; };
-		844F15CE1C0492A500B485F8 /* LLCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15C61C0492A500B485F8 /* LLCircleLayer.m */; settings = {ASSET_TAGS = (); }; };
-		844F15CF1C0492A500B485F8 /* LLDisplayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15C81C0492A500B485F8 /* LLDisplayLayer.m */; settings = {ASSET_TAGS = (); }; };
-		844F15D11C0492A500B485F8 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15CC1C0492A500B485F8 /* UIView+SetRect.m */; settings = {ASSET_TAGS = (); }; };
-		8454310A1C0D4ACE00A1AC5F /* LLSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 845431091C0D4ACE00A1AC5F /* LLSlideMenu.m */; settings = {ASSET_TAGS = (); }; };
+		844F15CD1C0492A500B485F8 /* LLAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15C41C0492A500B485F8 /* LLAnimationManager.m */; };
+		844F15CE1C0492A500B485F8 /* LLCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15C61C0492A500B485F8 /* LLCircleLayer.m */; };
+		844F15CF1C0492A500B485F8 /* LLDisplayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15C81C0492A500B485F8 /* LLDisplayLayer.m */; };
+		844F15D11C0492A500B485F8 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F15CC1C0492A500B485F8 /* UIView+SetRect.m */; };
+		8454310A1C0D4ACE00A1AC5F /* LLSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 845431091C0D4ACE00A1AC5F /* LLSlideMenu.m */; };
+		A48CDC7F1E62B0C500B37E21 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CDC7E1E62B0C500B37E21 /* SecondController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		844F15CC1C0492A500B485F8 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
 		845431081C0D4ACE00A1AC5F /* LLSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSlideMenu.h; sourceTree = "<group>"; };
 		845431091C0D4ACE00A1AC5F /* LLSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSlideMenu.m; sourceTree = "<group>"; };
+		A48CDC7D1E62B0C500B37E21 /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		A48CDC7E1E62B0C500B37E21 /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				844F159C1C0491E800B485F8 /* AppDelegate.m */,
 				844F159E1C0491E800B485F8 /* ViewController.h */,
 				844F159F1C0491E800B485F8 /* ViewController.m */,
+				A48CDC7D1E62B0C500B37E21 /* SecondController.h */,
+				A48CDC7E1E62B0C500B37E21 /* SecondController.m */,
 				844F15A11C0491E800B485F8 /* Main.storyboard */,
 				844F15A41C0491E800B485F8 /* Assets.xcassets */,
 				844F15A61C0491E800B485F8 /* LaunchScreen.storyboard */,
@@ -186,6 +191,7 @@
 				844F15D11C0492A500B485F8 /* UIView+SetRect.m in Sources */,
 				844F15A01C0491E800B485F8 /* ViewController.m in Sources */,
 				844F159D1C0491E800B485F8 /* AppDelegate.m in Sources */,
+				A48CDC7F1E62B0C500B37E21 /* SecondController.m in Sources */,
 				844F15CE1C0492A500B485F8 /* LLCircleLayer.m in Sources */,
 				844F15CD1C0492A500B485F8 /* LLAnimationManager.m in Sources */,
 				844F15CF1C0492A500B485F8 /* LLDisplayLayer.m in Sources */,
@@ -301,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LLSlideMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lilei.LLSlideMenuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LLSlideMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lilei.LLSlideMenuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

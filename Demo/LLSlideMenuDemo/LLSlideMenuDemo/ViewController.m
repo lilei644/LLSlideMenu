@@ -43,7 +43,13 @@
     //===================
     UIImageView *img = [[UIImageView alloc] initWithFrame:CGRectMake(50, 40, 80, 80)];
     [img setImage:[UIImage imageNamed:@"Head"]];
+    
+    // 添加触摸事件
+    img.userInteractionEnabled = YES;
+    [img addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageViewTapAction)]];
     [_slideMenu addSubview:img];
+    
+    
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(30, 140, 150, 400)];
     label.text = @"这是第一行菜单\n\n这是第二行菜单\n\n这是第三行菜单\n\n这是第四行菜单\n\n这是第五行菜单\n\n这是第六行菜单\n\n这是第七行菜单\n\n这是第八行菜单\n\n这是第九行菜单\n\n这是第十行菜单";
@@ -110,6 +116,14 @@
     } else {
         [_slideMenu ll_openSlideMenu];
     }
+}
+
+
+//===================
+// 点击图片监听事件
+//===================
+- (void)imageViewTapAction {
+    [self performSegueWithIdentifier:@"ToSecondController" sender:self];
 }
 
 

@@ -183,6 +183,11 @@ static NSString *ANIM_ENDCIRCLE = @"endLLCircleAnimate";
             [_circleLayer removeAllAnimations];
             return;
         }
+    } else {
+        // 解决由于页面跳转导致动画属性未关闭
+        [_layer removeAllAnimations];
+        _llSildeMenu.ll_isOpen = !_llSildeMenu.ll_isOpen;
+        _isAnimating = NO;
     }
 }
 
