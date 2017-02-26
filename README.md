@@ -9,7 +9,7 @@ This is a spring slide menu for iOS apps<br>
 ## Installation &nbsp;安装
 * pod
 ```
-    1.pod "LLSlideMenu"
+    1.pod 'LLSlideMenu', '~> 1.0.6'
     2.pod install       // 若获取失败请重新 pod setup
     3.#import "LLSlideMenu.h"
 ```
